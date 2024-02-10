@@ -3,11 +3,19 @@
     grid-template-columns: 500px 500px;
     justify-items: center;
     align-items: center;
+    justify-content: center;
+}
+
+.grid img {
+    height: 300px;
+    overflow: hidden;
+    width: auto;
+    align-items: center;
 }
 
 ul.nav {
     list-style-type: none;
-    margin: 0;
+    /* margin: 0; */
     padding: 15px 10px;
     background-color: #2e4f2a;
 }
@@ -43,4 +51,52 @@ li.active {
     text-decoration: none;
     color: black;
     position: relative;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+div p.index {
+    margin: 0px 300px 20px 300px;
+    font-size: large;
+}
+
+img {
+    height: 300px;
+    width: auto;
+}
+
+div.intro {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    margin: 20px;
+    padding-left: 100px;
+}
+
+div.intro p {
+    grid-column: 2 / 3;
+}
+
+div.intro img {
+    grid-row: 1 / 3;
+}
+
+.travgrid {
+    display: grid;
+    grid-template-columns: 600px 600px;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.travgrid img {
+    height: 300px;
+    width: 500px;
+}
+
+.travgrid img:hover {
+    height: 350px;
+    width: 550px;
 }
